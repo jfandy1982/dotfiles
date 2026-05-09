@@ -7,6 +7,7 @@ Personal dotfiles and daily-work scripts for managing configurations across vari
 ## Known Structure
 
 - `experiments/` — deliberate playground and backup directory, not production code; ignore when reviewing
+  - `experiments/superpowers/` — brainstorming specs and implementation plans from Claude sessions (gitignored, local only); check here for prior design decisions before starting new work
 - `node_modules/` — exists locally but is gitignored; not committed to the repo
 
 ## Tooling
