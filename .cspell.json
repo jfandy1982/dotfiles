@@ -20,6 +20,6 @@
   "import": ["@cspell/dict-de-de/cspell-ext.json"],
   "loadDefaultConfiguration": true,
   "useGitignore": true,
-  "ignoreWords": ["Bhupesh-V", "jfandy1982", "mathiasbynens", "natelandau", "rkalis"],
+  "ignoreWords": ["Bhupesh-V", "jfandy1982", "mathiasbynens", "natelandau", "rkalis", "sdlc"],
   "words": []
 }
