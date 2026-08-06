@@ -1,5 +1,5 @@
 {
-  "name": "dotfiles2",
+  "name": "dotfiles",
   "private": true,
   "scripts": {
     "format:all": "prettier --write .",
