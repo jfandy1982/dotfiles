@@ -13,7 +13,7 @@ Personal dotfiles and daily-work scripts for managing configurations across vari
 
 ## Tooling
 
-- Renovate: `renovate.json` in `.github/` is the repository-specific Renovate entry point; the `schedule` override there is intentional
+- Renovate: `renovate.json` in `.github/` is the repository-specific Renovate entry point, extending the shared `renovate-base.json` (schedule, labels, automerge rules); repo-specific `packageRules` overrides go here when needed
 - pre-commit hook runs `lint-staged` (Prettier + cspell) on `*.json`, `*.md`, `*.yml`; additionally runs `js-yaml` syntax validation on `*.yml`, `*.yaml`
 
 ### Commands
